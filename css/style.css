@@ -12,12 +12,12 @@ body{
 
 
 .overview{
-  background-attachment: fixed; /* Parallax effect */     
-  background-position: center;  /* Parallax effect */
-  background-repeat: no-repeat; /* Parallax effect */
-  background-size: cover;       /* Parallax effect */
+  background-attachment: fixed;     
+  background-position: center;  
+  background-repeat: no-repeat; 
+  background-size: cover;      
   color: white;
-  height: 400px;                /* Parallax effect */
+  height: 400px;                
 }
 
 
@@ -207,7 +207,7 @@ first div in the grid  and place it in the grid. */
 
 .text-block {
   display: grid;
-  place-items: center; 
+  /* place-items: center;  */
   text-align: center; 
 }
 
@@ -239,14 +239,11 @@ first div in the grid  and place it in the grid. */
     grid-column: 2 / span 2; 
   }
 
+ /* Step 13:Write the selector/rule property to update the .text-block class */
+
   .text-block {
     max-height: 250px;
     overflow: auto;
-    
   }
-
-
-
- /* Step 13:Write the selector/rule property to update the .text-block class */
 
 }
